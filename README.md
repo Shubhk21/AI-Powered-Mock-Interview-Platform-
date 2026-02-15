@@ -202,8 +202,7 @@ npx local-ssl-proxy --source 3001 --target 3000
 ## 🐛 Known Issues / Future Improvements
 
 - [ ] Rate limiting on Gemini API (free tier: 5 req/min for 2.5 Flash)
-- [ ] Video analysis integration needs completion
-- [ ] Add support for multiple programming languages in editor
+- [ ] Video analysis integration needs more optimization
 - [ ] Persist interview history
 - [ ] Add user authentication
 
