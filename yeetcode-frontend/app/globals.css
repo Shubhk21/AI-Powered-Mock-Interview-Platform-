@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: oklch(0.21 0.04 256);
+  --color-foreground: oklch(0.92 0.02 256);
+  
+  --color-card: oklch(0.24 0.036 256);
+  --color-card-foreground: oklch(0.92 0.02 256);
+  
+  --color-popover: oklch(0.26 0.036 256);
+  --color-popover-foreground: oklch(0.92 0.02 256);
+  
+  --color-primary: oklch(0.67 0.15 186);
+  --color-primary-foreground: oklch(0.21 0.04 256);
+  
+  --color-secondary: oklch(0.30 0.032 256);
+  --color-secondary-foreground: oklch(0.85 0.02 256);
+  
+  --color-muted: oklch(0.28 0.028 256);
+  --color-muted-foreground: oklch(0.57 0.024 256);
+  
+  --color-accent: oklch(0.67 0.15 186);
+  --color-accent-foreground: oklch(0.21 0.04 256);
+  
+  --color-destructive: oklch(0.66 0.2 25);
+  --color-destructive-foreground: oklch(0.98 0.008 256);
+  
+  --color-border: oklch(0.32 0.028 256);
+  --color-input: oklch(0.32 0.028 256);
+  --color-ring: oklch(0.67 0.15 186);
+  
+  --radius-lg: 0.75rem;
+  --radius-md: calc(0.75rem - 2px);
+  --radius-sm: calc(0.75rem - 4px);
+}
+
+:root {
+  --font-display: 'JetBrains Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-body);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, oklch(0.67 0.15 186), oklch(0.59 0.16 200));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-border {
+  box-shadow: 0 0 40px -10px oklch(0.67 0.15 186 / 0.3);
+}
