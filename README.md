@@ -1,6 +1,6 @@
 # 🚀 YeetCode - AI Mock Interview Platform
 
-> Built in 24 hours at [Hackathon Name]
+> Built in 24 hours at Hack_NCState
 
 YeetCode is an AI-powered technical interview platform that conducts voice-to-voice coding interviews with real-time code visibility, anti-cheating measures, and comprehensive performance evaluation.
 
@@ -19,9 +19,9 @@ YeetCode is an AI-powered technical interview platform that conducts voice-to-vo
 - Supports all programming languages
 
 ### ⏱️ Timed Challenges
-- **Easy**: Two Sum (15 seconds - for demo)
-- **Medium**: Reverse Linked List (30 seconds - for demo)
-- **Hard**: Merge K Sorted Lists (60 seconds - for demo)
+- **Easy**: Two Sum (10 minutes)
+- **Medium**: Reverse Linked List (20 minutes)
+- **Hard**: Merge K Sorted Lists (30 minutes)
 
 ### 🛡️ Anti-Cheating System
 - Continuous video monitoring (Twelve Labs)
@@ -44,7 +44,7 @@ YeetCode is an AI-powered technical interview platform that conducts voice-to-vo
 - **Framework**: Next.js 14 (TypeScript)
 - **Styling**: Tailwind CSS
 - **Animations**: Framer Motion
-- **Audio**: WebRTC, MediaRecorder API
+- **Audio**: WebSockets, MediaRecorder API
 - **Dev**: HTTPS proxy (local-ssl-proxy) for camera/mic access
 
 ### Backend
