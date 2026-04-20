@@ -1,4 +1,4 @@
-# 🚀 YeetCode - AI Mock Interview Platform
+# AI Mock Interview Platform
 
 > Built in 24 hours at Hack_NCState
 
